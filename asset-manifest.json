@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/YourIp/static/css/main.ddb12ffc.chunk.css",
+    "main.js": "/YourIp/static/js/main.45662d36.chunk.js",
+    "main.js.map": "/YourIp/static/js/main.45662d36.chunk.js.map",
+    "runtime-main.js": "/YourIp/static/js/runtime-main.608bd9d4.js",
+    "runtime-main.js.map": "/YourIp/static/js/runtime-main.608bd9d4.js.map",
+    "static/js/2.e0562b67.chunk.js": "/YourIp/static/js/2.e0562b67.chunk.js",
+    "static/js/2.e0562b67.chunk.js.map": "/YourIp/static/js/2.e0562b67.chunk.js.map",
+    "index.html": "/YourIp/index.html",
+    "precache-manifest.ee10356576df31537048f44504d2c6a5.js": "/YourIp/precache-manifest.ee10356576df31537048f44504d2c6a5.js",
+    "service-worker.js": "/YourIp/service-worker.js",
+    "static/css/main.ddb12ffc.chunk.css.map": "/YourIp/static/css/main.ddb12ffc.chunk.css.map",
+    "static/js/2.e0562b67.chunk.js.LICENSE.txt": "/YourIp/static/js/2.e0562b67.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/YourIp/static/media/modernart.dfc7fc94.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.608bd9d4.js",
+    "static/js/2.e0562b67.chunk.js",
+    "static/css/main.ddb12ffc.chunk.css",
+    "static/js/main.45662d36.chunk.js"
+  ]
+}
