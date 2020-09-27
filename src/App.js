@@ -59,6 +59,7 @@ class App extends React.Component {
           <h2 className="cont">State: {this.state.zipcode}</h2>
           <h2 className="cont">Latitude: {this.state.lat}</h2>
           <h2 className="cont">Longitude: {this.state.log}</h2>
+          <h2>trying</h2>
           
         </div>
       </div>
