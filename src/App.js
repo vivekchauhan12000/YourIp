@@ -18,7 +18,7 @@ class App extends React.Component {
   }
 
    fetchAdvice(){
-     axios.get('https://ip-api.com/json/')
+     axios.get('http://ip-api.com/json/')
       .then((response) => {
         const advice = response.data.country;
         const ip = response.data.query;
