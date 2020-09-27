@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import './App.css';
 import axios from 'axios';
 //import { Navbar } from 'react-bootstrap';
@@ -18,7 +18,7 @@ class App extends React.Component {
   }
 
    fetchAdvice(){
-     axios.get('http://ip-api.com/json/')
+     axios.get('https://ip-api.com/json/')
       .then((response) => {
         const advice = response.data.country;
         const ip = response.data.query;
