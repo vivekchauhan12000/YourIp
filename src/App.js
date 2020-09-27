@@ -18,13 +18,13 @@ class App extends React.Component {
   }
 
    fetchAdvice(){
-     axios.get('http://ip-api.com/json/')
+     axios.get('https://ipapi.co/json/')
       .then((response) => {
-        const advice = response.data.country;
-        const ip = response.data.query;
-        const zipcode=response.data.zip;
-        const lat=response.data.lat;
-        const log=response.data.lon;
+        const advice = response.data.country_name;
+        const ip = response.data.ip;
+        const zipcode=response.data.region;
+        const lat=response.data.latitude;
+        const log=response.data.longitude;
         this.setState({ advice });
         this.setState({ ip });
         this.setState({ zipcode });
@@ -56,7 +56,7 @@ class App extends React.Component {
         <div className="card">
         <h2 className="cont">IP: {this.state.ip}</h2>
           <h2 className="cont">Country: {this.state.advice}</h2>
-          <h2 className="cont">Zipcode: {this.state.zipcode}</h2>
+          <h2 className="cont">State: {this.state.zipcode}</h2>
           <h2 className="cont">Latitude: {this.state.lat}</h2>
           <h2 className="cont">Longitude: {this.state.log}</h2>
           
